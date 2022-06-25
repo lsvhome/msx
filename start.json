@@ -1,5 +1,184 @@
 {
-    "name": "My Example Content",
-    "version": "1.0.0",
-    "parameter": "menu:http://{SERVER}/msx/menu.json"
+  "name": "NoName Portal",
+    "type": "list",
+  "background": "http://msx.nnmtv.xyz/msx/img/bg.png", 
+  "headline": "NoName Media Station X App Store",
+  "version": "1.0.0",
+  "parameter": "content:http://msx.nnmtv.xyz/msx/start.json",
+  "action": "[settings:validate_links:0|home]", 
+  "dictionary": "http://msx.nnmtv.xyz/msx/lang/ru.json",
+    "launcher": {
+        "image": "http://msx.nnmtv.xyz/msx/img/noname.png"},
+   "template": {
+        "type": "separate",
+      "layout": "0,0,2,3",
+      "color": "msx-glass"
+   },
+   "items": [
+      {
+		"title":"Lampa",
+         "image": "http://msx.nnmtv.xyz/msx/img/lampa.jpg",
+          "action": "link:http://msx.nnmtv.xyz/lampa/"
+      },
+      {
+		"title":"Lampa Lite",
+         "image": "http://msx.nnmtv.xyz/msx/img/lampa_lite.jpg",
+          "action": "link:http://msx.nnmtv.xyz/lampa_lite/"
+      },
+      {
+		"title":"HDGO",
+         "image": "http://msx.nnmtv.xyz/msx/img/djin.jpg",
+          "action": "link:http://hdgo.me"
+      },
+      {
+		"title":"VoKino",
+            "image": "http://msx.nnmtv.xyz/msx/img/vokino.jpg",
+            "action": "link:http://web.vokino.tv/"
+      },
+      {
+		"title":"Deeplex",
+            "image": "http://msx.nnmtv.xyz/msx/img/deep.png",
+            "action": "link:http://smart.deeplex.cc"
+      },
+      {
+		"title":"Impire Boom",
+            "image": "http://msx.nnmtv.xyz/msx/img/imboom.png",
+            "action": "link:http://web.imboom.ru/"
+      },
+      {
+		"title":"Fork Beta (RU)",
+         "image": "http://msx.nnmtv.xyz/msx/img/forknew.png",
+         "action": "link:http://browser.appinfo.su/"
+      },
+      {
+		"title":"Fork Beta (COM)",
+         "image": "http://msx.nnmtv.xyz/msx/img/forknew.png",
+         "action": "link:http://browser.appfxml.com/"
+      },
+      {
+		"title":"Ott-play",
+         "image": "http://msx.nnmtv.xyz/msx/img/ottplay.jpg",
+         "action": "link:http://ott-play.com/f/"
+      },
+      {
+		"title":"Ott-play FOSS",
+         "image": "http://msx.nnmtv.xyz/msx/img/ott_foss.png",
+         "action": "link:http://ott.prog4food.eu.org/f/"
+      },
+      {
+		"title":"OTTplayer",
+         "image": "http://msx.nnmtv.xyz/msx/img/ottplayer.jpg",
+         "action": "link:http://widget.ottplayer.tv"
+      },
+      {
+		"title":"KinoBoom",
+         "image": "http://msx.nnmtv.xyz/msx/img/kb_msx_logo.png",
+         "action": "content:http://kb-team.club/msx/enter.php?welcome"
+      },
+      {
+		"title":"ТВ каналы",
+         "image": "http://msx.nnmtv.xyz/msx/img/iptv.png",
+          "action": "content:http://msx.nnmtv.xyz/iptv/tv.json"
+      },
+      {
+		"title":"XSmart",
+         "image": "http://msx.nnmtv.xyz/msx/img/xsmart.png",
+         "action": "link:http://app.xsmart.tv"
+      },
+      {
+		"title":"SS-IPTV",
+         "image": "http://msx.nnmtv.xyz/msx/img/ssiptv.jpg",
+          "action": "link:http://app.ss-iptv.com/"
+      },
+      {
+		"title":"Dstore",
+         "image": "http://msx.nnmtv.xyz/msx/img/dstore.png",
+         "action": "content:http://msx.lh1.in/msx/content.json"
+      },
+      {
+		"title":"Кинопаб",
+         "image": "http://msx.nnmtv.xyz/msx/img/kp.png",
+         "action": "link:https://kpms.cc/"
+      },
+      {
+		"title":"Кинопаб v.2",
+            "image": "http://msx.nnmtv.xyz/msx/img/kpstv.png",
+            "action": "link:http://msx.nnmtv.xyz/kpstv/index.html"
+      },
+      {
+		"title":"Youtube",
+         "image": "http://msx.nnmtv.xyz/msx/img/youtube.jpg",
+         "action": "link:http://www.youtube.com/tv#/"
+      },
+      {
+		"title":"Youtube Kids",
+         "image": "http://msx.nnmtv.xyz/msx/img/ytkids.jpg",
+         "action": "link:https://www.youtube.com/tv/kids"
+      },
+      {
+		"title":"GetsTV",
+         "image": "http://msx.nnmtv.xyz/msx/img/getstv.jpg",
+         "action": "link:http://getstv.ru/app/webos/index.html"
+      },
+      {
+		"title":"Pxel TV",
+            "image": "http://msx.nnmtv.xyz/msx/img/pxel.png",
+            "action": "link:http://app.pxel.tv/"
+      },
+      {
+		"title":"Яндекс видео",
+            "image": "http://msx.nnmtv.xyz/msx/img/yandex.jpg",
+            "action": "link:http://yandex.ru/video/tvapp/"
+      },
+      {
+		"title":"OVP",
+         "image": "http://msx.nnmtv.xyz/msx/img/ovp.png",
+         "action": "link:http://tsnakeman.net.ua/lg/"
+      },
+      {
+		"title":"Тут кино",
+         "image": "http://msx.nnmtv.xyz/msx/img/tutkino.jpg",
+         "action": "link:http://fork-p0rtal.ru/project/"
+      },
+      {
+		"title":"Qwedl Movies",
+         "image": "http://msx.nnmtv.xyz/msx/img/qwedl.png",
+          "action": "link:https://movies.qwedl.com/"
+      },
+      {
+		"title":"Webvideocaster",
+         "image": "http://msx.nnmtv.xyz/msx/img/Webvideocaster.png",
+          "action": "link:http://vewd.webvideocaster.com/"
+      },
+      {
+		"title":"RE! Music",
+         "image": "http://msx.nnmtv.xyz/msx/img/remusic.png",
+         "action": "link:http://tvsam-02.ext.dc3.dailymotion.com/tvapps/dm_editor/app/index.php?id=098158d48c9e6edd&player=html5#fxm"
+      },
+      {
+		"title":"RuTube",
+         "image": "http://msx.nnmtv.xyz/msx/img/rutube.png",
+         "action": "link:https://rutube.ru/tv-release/rutube.server-13.0.0-03/"
+      },
+      {
+		"title":"myTuner",
+         "image": "http://msx.nnmtv.xyz/msx/img/mytuner.png",
+         "action": "link:https://devices.mytuner.mobi/"
+      },
+      {
+		"title":"RadioPlayer",
+         "image": "http://msx.nnmtv.xyz/msx/img/radioplayer.png",
+         "action": "link:http://tv.radioplayer.de/HiSense/"
+      },
+      {
+		"title":"Wifire TV",
+         "image": "http://msx.nnmtv.xyz/msx/img/wifiretv.png",
+         "action": "link:http://lite.tv.ti.ru/storage/webos/"
+      },
+      {
+		"title":"WEB MSX HTTP",
+         "image": "http://msx.nnmtv.xyz/msx/img/msx.jpg",
+         "action": "link:http://msx.benzac.de?leave=1"
+      }
+   ]
 }
