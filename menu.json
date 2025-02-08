@@ -20,6 +20,9 @@
                     }, {
                         "title": "Video 3",                       
                         "action": "video:http://msx.benzac.de/media/video3.mp4"
+                    }, {
+                        "title": "Gnome remote desktop",
+                        "action": "video:rtsp://192.168.70.249:7236/wfd1.0"
                     }]
             }
         }, {
