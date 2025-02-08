@@ -23,6 +23,9 @@
                     }, {
                         "title": "Gnome remote desktop",
                         "action": "video:rtsp://192.168.70.249:7236/wfd1.0"
+                    }, {
+                        "title": "Gnome remote desktop2",
+                        "action": "system:hbbtv:launch:rtsp://192.168.70.249:7236/wfd1.0"
                     }]
             }
         }, {
