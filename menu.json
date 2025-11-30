@@ -24,6 +24,9 @@
                         "title": "FTP_Two.and.a.Half.Men.S01E01",
                         "action": "video:ftp://192.168.70.254:2121/Download/Films/Two.and.a.Half.Men/Two.and.a.Half.Men.S01.720p.WEBRip.2CH.x265.HEVC-PSA/Two.and.a.Half.Men.SEASON.01.S01.COMPLETE.720p.WEBRip.2CH.x265.HEVC-PSA/Two.and.a.Half.Men.S01E01.Pilot.%28Most.Chicks.Wont.Eat.Veal%29.720p.WEBRip.2CH.x265.HEVC-PSA.mkv"
                     }, {
+                        "title": "http_Two.and.a.Half.Men.S01E01",
+                        "action": "video:http://192.168.70.254:8080/Two.and.a.Half.Men/Two.and.a.Half.Men.S01.720p.WEBRip.2CH.x265.HEVC-PSA/Two.and.a.Half.Men.SEASON.01.S01.COMPLETE.720p.WEBRip.2CH.x265.HEVC-PSA/Two.and.a.Half.Men.S01E01.Pilot.(Most.Chicks.Wont.Eat.Veal).720p.WEBRip.2CH.x265.HEVC-PSA.mkv"
+                    }, {
                         "title": "Gnome remote desktop",
                         "action": "video:rtsp://192.168.70.249:7236/wfd1.0"
                     }, {
