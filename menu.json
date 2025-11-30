@@ -40,7 +40,7 @@
 {"title": "Two.and.a.Half.Men.S01E24.Can.You.Feel.My.Finger.720p.WEBRip.2CH.x265.HEVC-PSA.mkv", "action": "video:http://192.168.70.254:8080/Two.and.a.Half.Men/Two.and.a.Half.Men.S01.720p.WEBRip.2CH.x265.HEVC-PSA/Two.and.a.Half.Men.SEASON.01.S01.COMPLETE.720p.WEBRip.2CH.x265.HEVC-PSA/Two.and.a.Half.Men.S01E24.Can.You.Feel.My.Finger.720p.WEBRip.2CH.x265.HEVC-PSA.mkv"}
 ]        
             }       
-        ,{
+        }, {
             "icon": "movie",
             "label": "My Example Movies",
             "data": {
